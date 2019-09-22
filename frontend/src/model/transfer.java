@@ -1,0 +1,74 @@
+package model;
+
+import javax.enterprise.context.SessionScoped;
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean(name = "Transfer")
+@SessionScoped
+
+public class transfer {
+
+	//Variables
+	private String Name;
+	private String SourcePassport;
+	private String DestinationPassport; 
+	private String DestinationBank;
+	private String DestationCountry;
+	private String AccountNumber;
+	private double Amount;
+	private String TransactionCode;
+	
+	//Methods - getters and Setters
+	
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	public String getSourcePassport() {
+		return SourcePassport;
+	}
+	public void setSourcePassport(String sourcePassport) {
+		SourcePassport = sourcePassport;
+	}
+	public String getDestinationPassport() {
+		return DestinationPassport;
+	}
+	public void setDestinationPassport(String destinationPassport) {
+		DestinationPassport = destinationPassport;
+	}
+	public String getDestinationBank() {
+		return DestinationBank;
+	}
+	public void setDestinationBank(String destinationBank) {
+		DestinationBank = destinationBank;
+	}
+	public String getDestationCountry() {
+		return DestationCountry;
+	}
+	public void setDestationCountry(String destationCountry) {
+		DestationCountry = destationCountry;
+	}
+	public String getAccountNumber() {
+		return AccountNumber;
+	}
+	public void setAccountNumber(String accountNumber) {
+		AccountNumber = accountNumber;
+	}
+	public double getAmount() {
+		return Amount;
+	}
+	public void setAmount(double amount) {
+		Amount = amount;
+	}
+	public String getTransactionCode() {
+		return TransactionCode;
+	}
+	public void setTransactionCode(String transactionCode) {
+		TransactionCode = transactionCode;
+	}
+	
+	
+	
+}

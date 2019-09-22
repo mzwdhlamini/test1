@@ -1,0 +1,17 @@
+package model;
+
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean(name = "Transfer")
+public class transfer {
+
+	private String Name;
+	private String SourcePassport;
+	private String DestinationPassport; 
+	private String DestinationBank;
+	private String DestationCountry;
+	private String AccountNumber;
+	private double Amount;
+	private String TransactionCode;
+	
+}

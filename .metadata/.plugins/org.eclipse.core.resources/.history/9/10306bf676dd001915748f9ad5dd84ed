@@ -1,0 +1,6 @@
+package controller;
+
+@ManagedBean(name = TransferController)
+public class transfercontroller {
+
+}
